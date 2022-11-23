@@ -110,3 +110,8 @@ form input {
     text-align: left;
     border-radius: 10px;
 }
+
+#name-feedback {
+    color: rgb(255, 85, 85);
+    margin-top: 10px;
+}

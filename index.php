@@ -24,9 +24,8 @@
         <h1>Welcome to WebRPG!</h1>
         <form>
             <label for="username">Username</label><br>
-            <input type="text" id="username" name="username"><br><br>
-            <label for="password">Password</label><br> 
-            <input type="password" id="password" name="password">
+            <input type="text" id="username" name="username">
+            <div id="name-feedback">In here</div>
             <input class="login__button" type="button" value="Log in">
         </form>
     </div>
