@@ -22,9 +22,9 @@
     </nav>
     <div class="login__container">
         <h1>Welcome to WebRPG!</h1>
-        <form>
+        <form name="form">
             <label for="username">Username</label><br>
-            <input type="text" id="username" name="username">
+            <input type="text" id="username-input" name="username">
             <div id="name-feedback">In here</div>
             <input class="login__button" type="button" value="Log in">
         </form>

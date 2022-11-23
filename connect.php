@@ -1,3 +1,3 @@
 <?php
-    $db = mysqli_connect('localhost', 'root', '', 'WebRPG');
+    $db = new mysqli('localhost', 'root', '', 'WebRPG');
 ?>

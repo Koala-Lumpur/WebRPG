@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
     $.ajax({
         type: "GET",
@@ -9,5 +9,12 @@ $(document).ready(function() {
         }
     });
 
-    $('#name-feedback').load('leaderboard.php').show();
+    $('#name-feedback').load('namecheck.php').show();
+
+    $('#username-input').keyup(function() {
+        $.post('namecheck.php', { username: form.username.value }, 
+        function(result) {
+            $('#name-feedback').html(result).show();
+        });
+    });
 });
