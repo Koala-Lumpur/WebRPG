@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'root', '', 'WebRPG');
+$conn = mysqli_connect('sql7.freemysqlhosting.net', 'sql7580188', 'ynljLCUT9J', 'sql7580188');
 
 $results = $conn->query("SELECT * FROM users");
 ?>
